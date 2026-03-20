@@ -201,11 +201,8 @@ curl -X POST http://localhost:8000/predict \
 
 ---
 
-## Skills Demonstrated
 
-- **Streaming ML:** real-time feature computation on live event streams with PyFlink windowed aggregations
-- **Feature store:** offline-online feature symmetry with Feast point-in-time correct joins
-- **MLOps:** model versioning in SageMaker Registry, PSI drift detection, automated retraining via GitHub Actions
-- **Analytics engineering:** dbt + Snowflake staging/marts/PSI models on Kafka-sinked data
-- **Cloud:** AWS S3 (data lake), ElastiCache (feature serving), SageMaker (model registry), EC2 (inference)
-- **Observability:** Prometheus metrics + Grafana dashboard with P50/P95/P99 latency tracking
+## Author
+
+**Sushanth Prabhu** — AI/ML Engineer  
+[GitHub](https://github.com/sushpr127) · [LinkedIn](https://www.linkedin.com/in/sushanthpr/)
