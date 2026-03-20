@@ -1,0 +1,34 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Data — never commit these
+data/
+*.csv
+*.parquet
+
+# Models — too large for git
+models/*.pkl
+models/*.tar.gz
+
+# Environment — never commit credentials
+.env
+
+# dbt
+dbt_project/fraud_ml/target/
+dbt_project/fraud_ml/dbt_packages/
+dbt_project/fraud_ml/logs/
+
+# Feast
+fraud_feast/feature_repo/registry.db
+fraud_feast/feature_repo/data/
+
+# Mac
+.DS_Store
+
+# Docker
+.docker/

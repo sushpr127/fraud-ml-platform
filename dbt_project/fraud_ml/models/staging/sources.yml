@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw
+    database: FRAUD_DB
+    schema: RAW
+    tables:
+      - name: RAW_TRANSACTIONS
+        description: Raw transaction events from Kafka
